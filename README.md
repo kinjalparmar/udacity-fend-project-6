@@ -19,7 +19,7 @@ You can also run it from : [kinjalparmar.github.io/website_optimization/](https:
 
 ## Achieved Goals :
   
-**1. PageSpeed Score** : `index.html` is optimized to achieved PageSpeed score of 95/100 for both mobile and desktop.
+**1. PageSpeed Score** : `index.html` is optimized to achieved PageSpeed score of 94/100 and 96/100 for mobile and desktop respectively.
 * Can check [my optimization score](https://kinjalparmar.github.io/website_optimization/) on : [Pagespeed Insights](https://developers.google.com/speed/pagespeed/insights/)
 
 **2. Getting Rid of Jank** : `main.js` is optimized to achieve a frame rate of *60fps(Frame Rate per second)* when scrolling. Also reduced the time to resize pizzas in `pizza.html` to less than 5 ms.
@@ -93,9 +93,6 @@ To achieve the goal, I have made the following optimizations :
     - uglify `.js`
     - compress images
 * Further reduced the size of `pizzeria-100small.jpg` using [http://optimizilla.com/](http://optimizilla.com/) and rename it as : `pizzeria_min.jpg`.
-* Screenshot of PageSpeed test:
-
-![PageSpeed Optimization](src/img/pagespeed_screentshot.png)
 
 **Achieving 60 fps in the pizza.html page** 
 
